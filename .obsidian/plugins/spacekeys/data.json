@@ -1,0 +1,19 @@
+{
+  "keymapFile": {
+    "path": "spacekey.yaml",
+    "format": "auto",
+    "extend": false,
+    "autoReload": false
+  },
+  "modal": {
+    "delay": 0,
+    "execDelay": 100,
+    "showInvalid": true,
+    "backspaceReverts": true,
+    "backspaceCloses": true,
+    "trimDescriptions": true,
+    "dimBackground": false
+  },
+  "activateOnSpace": "markdown_only",
+  "pluginVersion": "0.5.0"
+}

@@ -1,0 +1,25 @@
+items:
+  f:
+    description: Find
+    items:
+      f:
+        command: global-search:open
+        description: File
+
+  e:
+    description: Focus Explorer
+    command: file-explorer:open
+
+  t:
+    description: Tab
+    items:
+      c:
+        description: Close
+        items:
+          a:
+            description: All(without current)
+            command: workspace:close-others
+          c:
+            description: Current
+            command: workspace:close
+

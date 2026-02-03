@@ -4,5 +4,7 @@
   "showLineNumber": true,
   "strictLineBreaks": false,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "focusNewTab": true,
+  "openBehavior": ""
 }

@@ -40,3 +40,9 @@ map S[ :surround_square_brackets<CR>
 map S[ :surround_square_brackets<CR>
 map S{ :surround_curly_brackets<CR>
 map S} :surround_curly_brackets<CR>
+
+" Spacekeys leader
+exmap tabnext obcommand workspace:next-tab
+nmap gt :tabnext<CR>
+exmap tabprev obcommand workspace:previous-tab
+nmap gT :tabprev<CR>
